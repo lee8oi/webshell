@@ -1,0 +1,8 @@
+{
+	"HTTPPort": "80",
+	"HTTPSPort": "443",
+	"Domain": "example.com",
+	"PubDir": "public",
+	"CertPem": "certs/fullchain.pem",
+	"KeyPem": "certs/privkey.pem"
+}

@@ -1,0 +1,62 @@
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: lightgrey;
+	height: 100%;
+	width: 100%;
+}
+
+html {
+	height: 95%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.input {
+	display: inline-block;
+}
+
+#input-form {
+	padding: 10px;
+}
+
+#main {
+	position: relative;
+	max-width: 700px;
+	height: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	background: lightgrey;
+	border: 5px outset grey;
+	text-align: center;
+}
+
+#shell-input {
+	border: 3px inset grey;
+	width: calc(100% - 65px);
+	padding-left: 5px;
+	background: black;
+	color: white;
+}
+
+#shell-output {
+	width: calc(100% - 50px);
+	/*height: 90%;*/
+	height: calc(100% - 95px);
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	border:5px inset grey;
+	text-align: left !important;
+	background: black;
+	color: white;
+	padding: 10px;
+	overflow-y: auto;
+}
+
+#submit {
+	height: 25px;
+}

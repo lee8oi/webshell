@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WebShell</title>
+<link rel="stylesheet" type="text/css" href="/styles.css">
+<script src="/scripts.js"></script>
+</head>
+<body onload="focus();">
+	<div id="main">
+		WEBSHELL
+		<div id="shell-output"></div>
+		<form id="input-form">
+			<input type="text" id="shell-input" class="input"/>
+			<button type="submit" id="submit" class="input" onclick="return sendCmd();">Send</button>
+		</form>
+	</div>
+</body>
+</html>
